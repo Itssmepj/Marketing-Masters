@@ -5,6 +5,11 @@
   background-color: white;
 }
 
+.navbar-brand {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
 .nav-item {
   padding-left: 1.5rem;
 }
@@ -783,7 +788,7 @@ i {
   max-width: 300px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 } 
 
 .icon {
@@ -791,10 +796,11 @@ i {
   margin-right: 10px;
 }
 
-.info p a {
+.info p a, .info p {
   --bs-text-opacity: 1;
     color: var(--bs-secondary-color) !important;
 }
+
 
 .info p a:hover {
   text-decoration: underline;
