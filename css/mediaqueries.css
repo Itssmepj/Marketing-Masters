@@ -237,6 +237,10 @@
   }
   
   @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.7rem;
+    }
+
     .home-page {
       height: 36rem;
       margin-top: 7px;
@@ -518,13 +522,29 @@
 
   @media (max-width: 576px) {
     .home-image img {
-      width: 56%;
+      width: 64%;
       margin-top: -2rem;
-      margin-left: 7.5rem;
+      margin-left: 5.5rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .smallbusiness-text {
+      font-size: 4.3rem;
+    }
+
+    .home-image img {
+      width: 78%;
+      margin-top: -2rem;
+      margin-left: 3.4rem;
     }
   }
 
   @media (max-width: 485px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+
     .home-page {
         height: 37rem;
         margin-top: 0px;
@@ -548,9 +568,9 @@
     }
     
     .home-image img {
-        width: 65%;
+        width: 70%;
         margin-top: -2rem;
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
 
     .blog1-img {
@@ -561,8 +581,8 @@
  
   @media only screen and (max-width: 481px) {
     .home-image img {
-      width: 68%;
-      margin-left: 4.3rem;
+      width: 72.6%;
+      margin-left: 3.1rem;
     }
 
     .service-page .box {
@@ -672,6 +692,10 @@
   }
    
   @media only screen and (max-width: 410px) {
+    .navbar-brand {
+      font-size: 1.35rem;
+    }
+
     .home-button {
       width: 30%;
     }
@@ -722,6 +746,10 @@
 }
 
 @media (max-width: 369px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
    .home-page {
     height: 33rem;
     margin-top: 12px;
