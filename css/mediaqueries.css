@@ -1,46 +1,918 @@
-@media (min-width: 992px) {
-    .navbar-nav.mx-auto {
-        width: 100%;
-        justify-content: center;
+  @media only screen and (max-width: 1454px) and (min-width: 1201px) {
+    .corevalues-page {
+      margin: 0 26px;
     }
-}
+  }
 
-@media (max-width: 991.98px) {
-    .contact-btn {
-        width: 20%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 767.98px) {
-    #home h1 {
-        font-size: 2rem;
+  @media (max-width: 1444px) {
+    .smart-text {
+        font-size: 5rem;
+        margin-left: 30px;
+        margin-top: 10px;
     }
 
-    #home p {
+    .smallbusiness-text {
+        font-size: 5.2rem;
+        margin-bottom: 50px;
+    }
+  }
+
+  @media (max-width: 1304px) {
+    .home-page {
+        height: 35rem;
+    }
+
+    .smart-text {
+        font-size: 5rem;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .smallbusiness-text {
+        font-size: 4.5rem;
+        margin-bottom: 50px;
+    }
+
+    .home-page h3 {
+        margin-top: 53px;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+  }
+
+  @media only screen and (max-width: 1200px){
+    .service-page {
+      margin: 0 24px;
+    }
+
+    .customer-img{
+      margin-left: 9px;
+    }
+
+    .mission-text, .corevalues-page{
+      margin: 0 26px;
+    }
+
+    .corevalues-page {
+      margin-bottom: 3px;
+    }
+
+    .blog-row {
+      margin: 2px 15px;
+    }
+
+    .que h2 {
+      font-size: 47px;
+      font-weight: 800;
+    }
+
+    .accordion {
+      font-size: 22px;
+      margin-left: 33px;
+      width: 94.5%;
+    }
+  
+    .panel {    
+      margin: 11.5px 33px -10px 33px;
+      font-size: 21px;
+    }
+  }
+
+
+  @media (max-width: 1164px) {
+    .home-text{
+      padding-left: 75px;
+    }
+    .home-page {
+        height: 34.3rem;
+    }
+
+    .smart-text {
+        font-size: 4rem;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .smallbusiness-text {
+        font-size: 3.8rem;
+        margin-bottom: 40px;
+    }
+
+    .home-image img {
+      margin-left: 6px;
+      margin-top: 25px;
+    }
+
+    .home-page h3 {
         font-size: 1.2rem;
+        font-weight: 400;
     }
 
-    #home img {
-        width: 100%;
+    .home-button {
+        padding: 4px;
+        font-size: 1rem; 
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1024px) {
+    .service-page h2{
+      font-size: 2.8rem;
     }
 
-    h1 {
-        font-size: 2.5rem;
+    .service-page h3 {
+      padding-top: 1px;
+    }
+
+    .accounts-img {
+      margin-top: -34px;
+    }
+  
+    .customer-img {
+      margin-top: 0px;
+    }
+
+    .accordion {    
+      margin-left: 32px;
+      width: 93.76%;
+      font-size: 22px;
+      padding: 24px;
+    }
+
+    .panel {
+      width: 93.76%;
+      margin-left: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .postcard__text {
+      padding: 2rem 3.5rem;
+    }
+  
+    .postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+  
+    .postcard.dark .postcard__text:before {
+      background: #18151f;
+    }
+  
+    .postcard.light .postcard__text:before {
+      background: #e1e5ea;
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    .nav-links-margin {
+      margin-right: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .navbar{
+      padding: 12px;
+    }
+    
+    .lets-talk-button {
+      display: none;
+    }
+
+    .home-page {
+      height: 27rem;
+    }
+
+    .home-text {
+      flex: 1.1;
+    }
+
+    .home-image {
+      flex: 1;
+    }
+    
+    .home-text {
+      padding-left: 57px;
+    }
+
+    .smallbusiness-text {
+      font-size: 3.8rem;
+    }
+    
+    .smart-text {
+      font-size: 3.8rem;
+    }
+    
+    .home-image img {
+      margin-left: -15px;
+      margin-top: 36px;
+      width: 100%;
+    }
+
+    .tagline-footer {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 881px) {
+    .home-page {
+      height: 30rem;
+    }
+
+    .home-text {
+      margin-left: 3px
+    }
+    .smallbusiness-text {
+      font-size: 3rem;
+    }
+
+    .home-image img {
+      margin-left: -53px;
+      width: 109%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.7rem;
+    }
+
+    .home-page {
+      height: 36rem;
+      margin-top: 7px;
+    }
+    
+    .home-text {
+      flex: 6.5;
+    }
+
+    .home-image img {
+      width: 415%;
+      margin-top: 16rem;
+      margin-left: -18rem;
+    }
+    
+    .smart-text {
+      font-size: 4.5rem;
+      margin-left: 32px;
+    }
+    
+    .smallbusiness-text {
+      font-size: 4.5rem;
+      margin-bottom: 30px;
+      margin-left: 6px;
+    }
+    
+    .home-page h3 {
+      font-size: 1.5rem;
+      margin-left: 10px;
+    }
+
+    .service-page .content {
+      flex-direction: row;
+    }
+
+    .service-page {
+      margin: 1px;
+      padding: 65px 0px;
+      margin-bottom: 0px;
+    }
+  
+    .service-page h2 {
+      font-size: 2rem;
+      margin-bottom: 3px;
+    }
+  
+    .service-page h3 {
+      font-size: 25px;
+      font-weight: 500;
+      padding: 47px 0px 8px;
+    }
+  
+    .service-page ul {
+      font-size: 18px;
+      padding: 0px 27px 22px;
+    }
+  
+    .accounts-img {
+      width: 90%;
+      margin-top: 40px;
+      margin-left: 0;
+    }
+
+    .inventory-row, .ai-driven-row{
+      flex-direction: row-reverse;
+    }
+
+    .inventary-img {
+      margin-left: -17px;
+      width: 110%;
+      height: 271px;
+      margin-top: 24px;
+    }
+  
+    .inventory-box h3 {
+      margin-left: 59px;
+    }
+  
+    .inventory-box ul {
+      margin-left: 33px;
+    }
+  
+    .inventory-box .btn {
+      margin-left: 60px;
+    }
+  
+    .customer-img {
+      width: 105%;
+      margin-top: 42px;
+      margin-left: -18px;
+    }
+
+    .ai-driven-img {
+      margin-top: 54px;
+      margin-left: -10px;
+      width: 97%;
+    }
+
+    .vision-title {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 9px;
+      margin-bottom: 30px;
+    }
+
+    .mission-page h2, .corevalues-heading {
+      font-size: 2.2rem;
+    }
+
+    .mission-page p {
+      font-size: 18px;
+    }
+
+    .blog1-heading {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .blog1-img {
+      width: 80%;
+      margin-left: 10.2%;
+    }
+
+    #blog {
+      padding: 15px 0;
+    }
+
+    .blog-heading {
+      margin-bottom: 30px;
+    }
+
+    .que h2{
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+  
+    .accordion {
+      margin-left: 31px;
+      width: 91.8%;
+      font-size: 19.5px;
+      height: 94px;
+      padding: 10px 13px;
+    }
+  
+    .accordion:after{
+      font-size: 38px;
+    }
+
+    .panel {
+      padding: 16px 15px;
+      margin-left: 31px;
+      width: 91.8%;
+      font-size: 17px;
+    }
+
+    .footer-links {
+      text-align: left;
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    .postcard {
+      flex-wrap: inherit;
+    }
+    .postcard .postcard__title {
+      font-size: 2rem;
+    }
+    .postcard .postcard__tagbox {
+      justify-content: start;
+    }
+    .postcard .postcard__img {
+      max-width: 300px;
+      max-height: 100%;
+      transition: transform 0.3s ease;
+    }
+    .postcard .postcard__text {
+      padding: 3rem;
+      width: 100%;
+    }
+    .postcard .media.postcard__text:before {
+      content: "";
+      position: absolute;
+      display: block;
+      background: #18151f;
+      top: -20%;
+      height: 130%;
+      width: 55px;
+    }
+    .postcard:hover .postcard__img {
+      transform: scale(1.1);
+    }
+    .postcard:nth-child(2n+1) {
+      flex-direction: row;
+    }
+    .postcard:nth-child(2n+0) {
+      flex-direction: row-reverse;
+    }
+    .postcard:nth-child(2n+1) .postcard__text::before {
+      left: -12px !important;
+      transform: rotate(4deg);
+    }
+    .postcard:nth-child(2n+0) .postcard__text::before {
+      right: -12px !important;
+      transform: rotate(-4deg);
+    }
+
+    .green::before {
+      background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+    }
+  
+    .green:nth-child(2n)::before {
+      background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+    }
+  
+    .blue::before {
+      background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+    }
+  
+    .blue:nth-child(2n)::before {
+      background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+    }
+  
+    .red::before {
+      background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+    }
+  
+    .red:nth-child(2n)::before {
+      background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+    }
+  
+    .yellow::before {
+      background-image: linear-gradient(-80deg, rgba(238, 234, 0, 0.774), transparent 50%);
+    }
+  
+    .yellow:nth-child(2n)::before {
+      background-image: linear-gradient(30deg, rgba(199, 196, 28, 0.279), transparent 50%);
+    }
+
+    .purple::before {
+      background-image: linear-gradient(-80deg, rgba(154, 126, 213, 0.215), transparent 50%);
+    }
+  
+    .purple:nth-child(2n)::before {
+      background-image: linear-gradient(80deg, rgba(175, 108, 230, 0.158), transparent 50%);
+    }
+  }
+
+  @media (max-width: 699px) {
+    .home-page {
+      height: 42rem;
+      flex-direction: column;
+      border-bottom: 3px solid #eff3f3b3;
+    }
+  
+    .home-text {
+      flex: 1;
+      text-align: center;
+      margin-left: 0;
+      padding-left: 21px;
+      margin-top: 0px;
+    }
+  
+    .smart-text {
+      font-size: 5rem;
+      margin-left: -176px;
+    }
+  
+    .smallbusiness-text {
+      font-size: 4.6rem;
+    }
+  
+    .home-image img {
+      width: 56%;
+      margin-top: -2rem;
+      margin-left: 9rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .home-image img {
+      width: 64%;
+      margin-top: -2rem;
+      margin-left: 5.5rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .smallbusiness-text {
+      font-size: 4.3rem;
+    }
+
+    .home-image img {
+      width: 78%;
+      margin-top: -2rem;
+      margin-left: 3.4rem;
+    }
+  }
+
+  @media (max-width: 485px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+
+    .home-page {
+        height: 37rem;
+        margin-top: 0px;
+    }
+    
+    .smart-text {
+        font-size: 4.2rem;
+        margin-left: -160px;
+    }
+    
+    .smallbusiness-text {
+        font-size: 3.6rem;
+    }
+    
+    .home-page h3 {
+        font-size: 1.4rem;
+    }
+    
+    .home-button {
+        font-size: 1.03rem;
+    }
+    
+    .home-image img {
+        width: 70%;
+        margin-top: -2rem;
+        margin-left: 4rem;
+    }
+
+    .blog1-img {
+      width: 91%;
+      margin-left: 5%;
+    }
+  }
+ 
+  @media only screen and (max-width: 481px) {
+    .home-image img {
+      width: 72.6%;
+      margin-left: 3.1rem;
+    }
+
+    .service-page .box {
+      text-align: center;
+    }
+
+    .service-page h3 {
+      margin-left: 0;
+    }
+
+    .service-page .content{
+      border-bottom: 1.5px solid #f0f0f0;
+    }
+    
+    .accounts-img {
+      width: 81%;
+      margin-left: 37px;
+      margin-top: -63px;
+    }
+    
+    .inventory-box h3 , .inventory-box ul , .inventory-box .btn{
+      margin-left: 0;
+    }
+
+    .inventary-img {
+      margin-left: 5px;
+      width: 97%;
+      height: 250px;
+      margin-top: -91px;
+    }
+  
+    .customer-img {
+      width: 94%;
+      margin-top: -78px;
+      margin-left: 13px;
+    }
+  
+    .ai-driven-img {
+      margin-top: -78px;
+      margin-left: 22px;
+      width: 87%;
+    }
+
+    .corevalues-page {
+      padding: 71px 0;
+    }
+
+    .corevalues-page .subheading {
+      font-size: 17px;
+    }
+
+    .vision-page {
+      padding-bottom: 15px;
+    }
+
+    .vision-p {
+      font-size: 1.7rem;
+      font-weight: 700;
+    }
+
+    .que h2{
+      font-size: 32px;
+      font-weight: 700;
+      margin-top: 47px;
+      margin-left: 10px;
+      margin-bottom: 2px;
+    }
+
+    .accordion {
+      width: 85%;
+      margin-left: 24px;
+      font-size: 17px;
+      padding: 9px 11px;
+      height: 115px;
+    }
+
+    .accordion:after{
+      font-size: 39px;
+    }
+  
+    .panel {
+      margin-left: 24px;
+      width: 89%;
+      font-size: 18.9px;
+      padding-left: 23px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .smart-text {
+      font-size: 4rem;
+      margin-left: -160px;
+    }
+  
+    .smallbusiness-text {
+      font-size: 3.3rem;
+    }
+  
+    .home-page h3 {
+      font-size: 1.2rem;
+    }
+  
+    .home-image img {
+      width: 70%;
+      margin-left: 4rem;
+    }
+  }
+   
+  @media only screen and (max-width: 410px) {
+    .navbar-brand {
+      font-size: 1.35rem;
+    }
+
+    .home-button {
+      width: 30%;
+    }
+
+    .learn-more-button{
+      font-weight: 400;
+      font-size: 11px;
+      padding: 7px 11px;
+    }
+
+    .service-page h2, .mission-page h2 {
+      font-size: 1.6rem;
+      margin-top: 54px;
+    }
+
+    .service-page h3 {
+      margin-top: -21px;
+      margin-left: 0;
+      font-size: 22px;
+      padding: 34px 0px 0px;
+    }
+
+    .service-page ul {
+      font-size: 16px;
+      padding: 0px 23px 22px;
+      margin-top: -7px;
+    }
+
+    .inventary-img {
+      margin-left: 6px;
+      width: 99%;
+      margin-top: -93px;
+      height: 220px;
+    }
+
+    .ai-driven-img {
+      margin-left: 21px;
+      width: 85%;
+    }
+
+    .mission-page p {
+      font-size: 16px;
+    }
+
+    .mission-page h2 {
+      font-size: 2.1rem;
     }
 }
 
-/* @media screen and (max-width: 768px) {
-} */
+@media (max-width: 369px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+   .home-page {
+    height: 33rem;
+    margin-top: 12px;
+  }
 
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 2rem;
-    }
+  .smart-text {
+    font-size: 3.6rem;
+    margin-left: -155px;
+  }
+
+  .smallbusiness-text {
+    font-size: 3rem;
+  }
+
+  .home-page h3 {
+    font-size: 1.1rem;
+    margin-top: 42px;
+  }
+
+  .home-button {
+    font-size: 1.03rem;
+    padding: 4px;
+    margin: 16px 2px;
+    width: 34%;
+  }
+
+  .home-image img {
+    width: 75%;
+    margin-left: 2.5rem;
+  }
+
+  .blog1-heading {
+    font-size: 1rem;
+    font-weight: 600;
+  }
 }
 
-@media screen and (max-width: 320px) {
-    h1 {
-        font-size: 1.5rem;
-    }
+@media (max-width: 342px) {
+  .home-page {
+    height: 32rem;
+  }
+
+  .smallbusiness-text {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .smart-text {
+    font-size: 3.5rem;
+    margin-left: -155px;
+  }
+
+  .cross::before {
+    border-bottom: 3px solid rgb(210, 15, 15);
+    top: 82%;
+  }
+   
+  .home-page h3 {
+    font-size: 1rem;
+  }
+
+  .home-button {
+    font-size: 0.9rem;
+    width: 33%;
+  } 
+
+  .home-image img {
+    width: 77%;
+    margin-left: 2rem;
+    margin-top: -16px;
+  }
 }
+
+@media (max-width: 336px) {
+  .smart-text {
+    font-size: 3.1rem;
+  }
+  .smallbusiness-text {
+    font-size: 2.5rem;
+  }
+
+  .blog1-img {
+    width: 95%;
+    margin-left: 3%;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .sol_card_top_3 {
+    position: relative;
+    top: 0;
+  }
+
+  .our_solution_category {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .our_solution_category .solution_cards_box {
+    flex: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .our_solution_category .solution_cards_box {
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .sol_card_top_3 {
+    position: relative;
+    top: -3rem;
+  }
+  .our_solution_category {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 260px) {
+  .home-page {
+    padding: 0px;
+    height: 29rem;
+  }
+
+  .home-text {
+    padding: 0 5px;
+  }
+
+  .home-image {
+    padding: 0 5px;
+  }
+
+  .smart-text {
+    font-size: 2.5rem;
+    margin-left: -97px;
+  }
+
+  .smallbusiness-text {
+    font-size: 2rem;
+  }
+
+  .home-page h3 {
+    font-size: 0.9rem;
+    padding: 0 14px;
+  }
+
+  .home-image img {
+    width: 80%;
+    margin-left: 1.6rem;
+    margin-top: 30px;
+  }
+
+  .service-page {
+    padding: 0;
+  }
+
+  .vision-box{
+    padding: 30px;
+  }
+}
+
+
+
+
